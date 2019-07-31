@@ -1,0 +1,10 @@
+/* 폰트 초기화 */
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+
+/* 블릿기호 초기화 */
+ul, ol, li {list-style: none}
+
+/* 링크 초기화 */
+a {text-decoration: none;}
+a:hover {text-decoration:none;}

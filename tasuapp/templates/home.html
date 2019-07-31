@@ -1,0 +1,80 @@
+{% extends 'base.html'%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Header -->
+  <head>
+    <div class="w3-container" style="margin-left:340px;margin-right:40px;margin-top:80px" id="showcase">
+      <h1 class="w3-jumbo"><b>About us</b></h1>
+      <h1 class="w3-xxxlarge w3-text-red"><b>같이타슈란 무엇인가요?</b></h1>
+      <hr style="width:50px;border:5px solid rgb(177, 66, 66)" class="w3-round">
+    </div>
+  </head>
+  <body>
+  <!-- Photo grid (modal) -->
+    <div class="w3-main" style="margin-left:340px;margin-right:40px">
+      
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" style="padding-top:0" >
+        <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <!-- <img id="img01" class="w3-image">
+          <p id="caption"></p> -->
+        </div>
+      </div>
+      <div class="w3-light-grey"> 
+        <!-- <img src="taswu.jpg"  style="width:50%"> -->
+        <div class="w3-container">
+            <h2>같이타슈</h2>
+            <p class="w3-opacity">SWU</p>
+            <p>슈니들과 등하교 함께해요.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+
+
+      <!-- The Team -->
+      <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <!--<img src="/w3images/team2.jpg" alt="John" style="width:100%">-->
+            <div class="w3-container">
+              <h3>서울여자대학교</h3>
+              <p class="w3-opacity">SWU CarPool</p>
+              <p>학우들과 교통수단 공유하기 프로젝트.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <!--<img src="/w3images/team1.jpg" alt="Jane" style="width:100%">-->
+            <div class="w3-container">
+              <h3>Taxi</h3>
+              <p class="w3-opacity">with SWU</p>
+              <p>화랑대, 태릉, 석계에서 택시 같이 타요.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+          <div class="w3-light-grey">
+            <!--<img src="/w3images/team3.jpg" alt="Mike" style="width:100%">-->
+            <div class="w3-container">
+              <h3>CarPool
+              </h3>
+              <p class="w3-opacity">with SWU</p>
+              <p>슈니들과 함께 하는 슈니들만의 카풀 서비스.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+    </div>
+
+  </body> 
+
+</html>
+ {% endblock %} 

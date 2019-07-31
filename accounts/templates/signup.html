@@ -1,0 +1,45 @@
+{% extends 'base.html'%}
+{% block content %}
+<!-- SignUp -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+<div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>SignUp.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Welcome to TaSwu!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+
+      <div class="w3-section">
+        <label>taswu-id</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+
+      <div class="w3-section">
+        <label>password</label>
+        
+        <input class="w3-input w3-border" type="password" name="password1" required>
+      </div>
+
+      <div class="w3-section">
+        <label>confirm-password</label>
+        <input class="w3-input w3-border" type="password" name="password2" required>
+      </div>
+      
+      <div class="w3-section">
+        <label>kakao-id</label>
+        <input class="w3-input w3-border" type="text" name="kakao_id" required>
+      </div>
+
+      <div class="w3-section">
+        <label>student-id</label>
+        <input class="w3-input w3-border" type="text" name="student-id" required>
+      </div>
+
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Sign UP!</button>
+    </form>
+  </div>
+  </div>
+{% endblock %}
